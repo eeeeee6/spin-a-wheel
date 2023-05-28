@@ -33,7 +33,7 @@ window.onload = function () {
         width: 1050,
 
         // game height, in pixels
-        height: 1100,
+        height: 1400,
 
         // game background color
         backgroundColor: 0x880044,
