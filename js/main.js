@@ -62,7 +62,7 @@ class playGame extends Phaser.Scene {
     // method to be executed when the scene preloads
     preload() { // loading assets
 
-        this.load.image("wheel", window.location.href + "images/wheel.png");
+        this.load.image("wheel", window.location.href + "images/wheelchinese.png");
         this.load.image("pin", window.location.href + "images/pin.png");
     }
 
