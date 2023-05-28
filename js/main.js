@@ -82,7 +82,7 @@ class playGame extends Phaser.Scene {
         this.pin = this.add.sprite(game.config.width / 2, game.config.height / 2, "pin");
 
         // adding the text field
-        this.prizeText = this.add.text(game.config.width / 2, game.config.height - 100, "按", {
+        this.prizeText = this.add.text(game.config.width / 2, game.config.height - 100, "按一下", {
             font: "bold 64px Rajdhani",
             align: "right",
             color: "white"
