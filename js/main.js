@@ -8,12 +8,12 @@ var gameOptions = {
 
     // prize names, starting from 12 o'clock going clockwise
     slicePrizes: [
-        "🎉 5% OFF",
-        "🎉 10% OFF",
-        "🎉 15% OFF",
-        "🎉 25% OFF",
-        "🎉 50% OFF",
-        "🎉 FREE PASTRY 🍰"
+        "🎉 小孩時候",
+        "🎉 十八歲時候",
+        "🎉 談戀愛時候",
+        "🎉 工作賺錢",
+        "🎉 四十歲時候",
+        "🎉 未來時候 🍰"
     ],
 
     // wheel rotation duration, in milliseconds
@@ -76,7 +76,7 @@ class playGame extends Phaser.Scene {
         this.pin = this.add.sprite(game.config.width / 2, game.config.height / 2, "pin");
 
         // adding the text field
-        this.prizeText = this.add.text(game.config.width / 2, game.config.height - 35, "SPIN TO WIN", {
+        this.prizeText = this.add.text(game.config.width / 2, game.config.height - 35, "按一下", {
             font: "bold 64px Rajdhani",
             align: "center",
             color: "white"
