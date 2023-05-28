@@ -70,7 +70,7 @@ class playGame extends Phaser.Scene {
     create() {
 
         // adding the top text field
-        this.prizeTopText = this.add.text(game.config.width / 2, game.config.height - 100, "聊聊你的故事", {
+        this.prizeTopText = this.add.text(game.config.width / 2, game.config.height 2, "聊聊你的故事", {
             font: "bold 64px Rajdhani",
             align: "right",
             color: "white"
