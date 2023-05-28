@@ -79,7 +79,7 @@ class playGame extends Phaser.Scene {
         this.prizeText = this.add.text(game.config.width / 2, game.config.height - 35, "按一下", {
             font: "bold 64px Rajdhani",
             align: "right",
-            color: "white"
+            color: "black"
         });
 
         // center the text
