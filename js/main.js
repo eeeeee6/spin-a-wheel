@@ -30,10 +30,10 @@ window.onload = function () {
         type: Phaser.CANVAS,
 
         // game width, in pixels
-        width: 850,
+        width: 1050,
 
         // game height, in pixels
-        height: 850,
+        height: 1100,
 
         // game background color
         backgroundColor: 0x880044,
@@ -76,10 +76,10 @@ class playGame extends Phaser.Scene {
         this.pin = this.add.sprite(game.config.width / 2, game.config.height / 2, "pin");
 
         // adding the text field
-        this.prizeText = this.add.text(game.config.width / 2, game.config.height - 35, "按一下", {
+        this.prizeText = this.add.text(game.config.width / 2, game.config.height - 100, "按一下", {
             font: "bold 64px Rajdhani",
             align: "right",
-            color: "black"
+            color: "white"
         });
 
         // center the text
