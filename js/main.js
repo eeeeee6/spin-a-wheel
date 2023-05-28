@@ -69,6 +69,12 @@ class playGame extends Phaser.Scene {
     // method to be executed once the scene has been created
     create() {
 
+        // adding the top text field
+        this.prizeTopText = this.add.text(game.config.width / 2, game.config.height - 100, "聊聊你的故事", {
+            font: "bold 64px Rajdhani",
+            align: "right",
+            color: "white"
+        });
         // adding the wheel in the middle of the canvas
         this.wheel = this.add.sprite(game.config.width / 2, game.config.height / 2, "wheel");
 
